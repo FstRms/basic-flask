@@ -21,7 +21,7 @@ def guess(pk):
             <h1 style='color:green'>You got it, you rock</h1>
             <img src='https://media.giphy.com/media/nXxOjZrbnbRxS/giphy.gif'>
         """
-    if pk < win_number:
+    elif pk < win_number:
         return """
             <h1 style='color:red'>You are too low, try again</h1>
             <img src='https://media.giphy.com/media/jqI7vrTgA1An4pi4k8/giphy.gif'>
